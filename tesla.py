@@ -5,7 +5,7 @@ motivos_imagenes = {
     "Para perder grasa y tonificar": "D:/Trabajos/WEB/GYM/tonificar.jpg",
     "Para aumentar el volumen de mi cuerpo": "D:/Trabajos/WEB/GYM/volumen.jpg",
     "Quisiera en un futuro participar en competiciones de fisicoculturismo": "D:/Trabajos/WEB/GYM/hiper.jpg",
-    "Por cuestiones de salud": "D:/Trabajos/WEB/GYM/salud.jpg",
+    "Por cuestiones de salud": "https://github.com/yuliakarla05/GYM/blob/main/salud.jpg",
 }
 
 def mostrar_imagen(motivo):
