@@ -1,10 +1,10 @@
 import streamlit as st
 
 motivos_imagenes = {
-    "Para perder peso": "https://github.com/yuliakarla05/GYM/blob/main/quemag.jpg",
-    "Para perder grasa y tonificar": "https://github.com/yuliakarla05/GYM/blob/main/tonificar.jpg",
-    "Para aumentar el volumen de mi cuerpo": "https://github.com/yuliakarla05/GYM/blob/main/volumen.jpg",
-    "Quisiera en un futuro participar en competiciones de fisicoculturismo": "https://github.com/yuliakarla05/GYM/blob/main/hiper.jpg",
+    "Para perder peso": "https://raw.githubusercontent.com/yuliakarla05/GYM/main/quemag.jpg",
+    "Para perder grasa y tonificar": "https://raw.githubusercontent.com/yuliakarla05/GYM/main/tonificar.jpg.jpg",
+    "Para aumentar el volumen de mi cuerpo": "https://raw.githubusercontent.com/yuliakarla05/GYM/main/volumen.jpg",
+    "Quisiera en un futuro participar en competiciones de fisicoculturismo": "https://raw.githubusercontent.com/yuliakarla05/GYM/main/hiper.jpg",
     "Por cuestiones de salud": "https://raw.githubusercontent.com/yuliakarla05/GYM/main/salud.jpg",
 }
 
@@ -19,7 +19,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.image("https://github.com/yuliakarla05/GYM/blob/main/gym1.jpg",width=700)
+st.image("https://raw.githubusercontent.com/yuliakarla05/GYM/main/gym1.jpg",width=700)
 
 with st.form("formulario"):
     col1, col2 = st.columns(2)
